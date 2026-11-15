@@ -1,0 +1,6 @@
+Dataset,Column,Decision,Reason,Columns
+Products,product_category_name,Filled missing values with Unknown,Preserved product records,
+Products,,Created missing-value indicators,Preserved missing information for investigation,Product dimension columns
+Geolocation,All columns,Removed fully duplicated rows,Avoided redundant identical records,
+Orders,,Retained missing dates,Missing delivery information may represent undelivered orders,Delivery timestamps
+Reviews,,Retained missing comments,Review text is optional,Review comments

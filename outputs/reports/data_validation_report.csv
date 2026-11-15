@@ -1,0 +1,7 @@
+Dataset,Check,Invalid Records
+Order Items,Negative prices,0
+Order Items,Negative freight values,0
+Payments,Negative payment values,0
+Payments,Invalid installments,2
+Reviews,Review score outside 1-5,0
+Orders,Delivery before purchase,0
